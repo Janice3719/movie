@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMain</title>
+    <style>
+        body {
+          background-color: #9b9b9b;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90vh;
+          margin: 0;
+          text-align :right;
+        }
+  
+        .container {
+          background-color: #f0eeee;
+          border-radius: 0.5rem;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
+          padding: 2rem;
+          width: 100%;
+          max-width: 650px;
+          transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+
+        .logo {
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+        .logo h1{
+          color: #000000;
+          font-size: 2rem;
+          font-weight: bold;
+        }
+  
+        .input-container {
+          margin-bottom: 1rem;
+        }
+  
+        .input-container input {
+          border: 2px solid #e0e0e0;
+          border-radius: 2rem;
+          padding: 0.75rem;
+          width: 93%;
+          outline: none;
+          font-size: 1rem;
+          transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+  
+        .input-container input:focus {
+          border-color: #878787;
+          box-shadow: 0 0 0 3px rgba(210, 208, 210, 0.1);
+        }
+  
+        .input-container input::placeholder {
+          color: #b0bec5;
+        }
+  
+        .search-button {
+          margin-top: 10px;
+          margin-right: 170px;
+          width: 45%;
+          padding: 0.75rem;
+          border-radius: 0.5rem;
+          background: linear-gradient(to right, #000000, #575757);
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          font-size: 1rem;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .search-button:hover {
+          background: linear-gradient(to right,#000000, #575757);
+          transform: translateY(-2px);
+          box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3);
+        }
+           
+        .search-button:active{
+           transform: translateY(0);
+           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        }
+      </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>MOVIE SEARCH</h1>
+        </div>
+        <div class="input-container">
+            <input type="text" placeholder="영화를 검색해 보세요.">
+        </div>
+        <button class="search-button">SEARCH</button>
+       
+    </div>
+
+</body>
+</html>
