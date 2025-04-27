@@ -21,7 +21,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -84,7 +84,20 @@ body {
     font-size: 0.75rem;
     padding-top: 0.25rem;
 }
-
+.form-button-login{
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:96px;
+}
+.form-button-login:hover{
+    background-color: #0056b3;
+}
 .form-button {
     padding: 0.75rem;
     font-size: 1rem;
@@ -98,4 +111,21 @@ body {
 
 .form-button:hover {
     background-color: #0056b3;
+}
+
+.box {
+    border: 2px solid #333;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.box label {
+    width: 80px;
+    font-weight: bold;
+}
+.box input {
+    flex: 1;
+    padding: 8px;
 }

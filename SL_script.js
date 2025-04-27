@@ -30,7 +30,7 @@ const validateUsername = (username) => {
     const usernameRegex = /^[a-zA-Z0-9]{5,15}$/;
     return usernameRegex.test(username);
 };
-
+ 
 
 // 로그인 폼 제출 처리
 loginForm.addEventListener('submit', (event) => {
