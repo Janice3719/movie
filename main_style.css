@@ -85,28 +85,14 @@ body {
 
   
     .SL_button {
-    margin-top: 20px;
-    margin-right: 225px;
-    width: 25%;
-    padding: 0.75rem;
-    border-radius: 0.5rem;
-    background:#3394f47d ;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-    font-size: 1rem;
-    border: none;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out, box-shadow 0.2s ease-in-out;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  }
-
-  .SL_button:active{
-     transform: translateY(0);
-     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  }
+    }
  
   .ontime_moive{
-    margin-left : 50px;
+    margin-left: 50px;
     margin-bottom: 700px;
     border-radius: 0.5rem;
   }
