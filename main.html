@@ -7,26 +7,28 @@
     <link rel="stylesheet" href="main_style.css">
 </head>
 
-<body>
+<body> <!--수정함-->
     <div class="container">
         <div class="logo">
-            <h1>영화 검색</h1>
+          <h1>영화 검색</h1>
         </div>
-        <a href = "signup_login.html" target="_blank">
-            <img src = "login_signup_logo.png"  class="SL_button"></a>
+        <div class="SL_button_container">  <a href="signup_login.html" target="_blank">
+            <img src="login_signup_logo.png" class="SL_button" alt="로그인/회원가입">
+          </a>
+        </div>
         <div class="input-container">
-            <input type="text" placeholder="영화를 검색해 보세요.">
+          <input type="text" placeholder="영화를 검색해 보세요.">
         </div>
         <button class="search-button">검색</button>
-         
-            <fieldset class = "movie_list">
-            영화 포스터 삽입
+      
+        <div class="ontime_moive">
+          <실시간 영화 순위>
+        </div>
+      
+        <fieldset class="movie_list">
+          영화 포스터 삽입
         </fieldset>
-    </div>
-    <br>
-    <fieldset class ="ontime_moive">
-        <legend>실시간 영화 순위</legend>
-        내용이 들어갑니다 
-      </fieldset>
+      </div>
+
 </body>
 </html>
